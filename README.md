@@ -121,6 +121,9 @@
 ## 6. Set the slider in the Snorlax2 prefab
 1. Locate the Snorelax2 prefab in **Prefabs -> Units -> Heroes**.
 2. Set the slider to **5**.
+
+## 7. Select Scene 
+1. Go to **Assets -> Scenes -> SampleScene** (Not the folder sample scene)
                                 
 ### Locations of Algorithms:
 1. Anthony:
