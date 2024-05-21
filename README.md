@@ -127,7 +127,7 @@
                                 
 ### Locations of Algorithms:
 1. Anthony:
-  - MonteCarloSearch, A* Algorithms are in **Assets -> _scripts -> AO Algo**
+  - Monte Carlo Search, A* Algorithms, Random Move are in **Assets -> _scripts -> AO Algo**
 2. Fourcan: 
   - A*, Hero Nash + Minimax, Enemy Minimax Algorithms are in **Assets -> _Scripts -> Units**
 3. Eugene:
