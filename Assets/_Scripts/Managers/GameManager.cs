@@ -136,11 +136,11 @@ public class GameManager : MonoBehaviour
 
     public void WriteCSV() 
     {
-        TextWriter tw = new StreamWriter("/Volumes/Main/Unity/1s DungeonEscape/newD/dungeonEscapeMonteNashRL.csv", true);
+        /*TextWriter tw = new StreamWriter("/Volumes/Main/Unity/1s DungeonEscape/newD/dungeonEscapeMonteNashRL.csv", true);
         tw.WriteLine(Monte_total_moves + "," + RL_total_moves + "," + Nash_total_moves + "," 
         + Monte_total_deaths + "," + RL_total_deaths + "," + Nash_total_deaths + "," + win + "," + loss + "," 
         + Monte_total_kills + "," + RL_total_kills + "," + Nash_total_kills);
-        tw.Close();
+        tw.Close();*/
 
     }
 }
