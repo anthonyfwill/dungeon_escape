@@ -100,7 +100,7 @@ Install Unity using Version 2023.2.17f1
 8. Navigate to the unzipped file.
 9. Go to the folder **com.unity.ml-agents**.
 10. Select **package.json** to install.
-11. Delete the file named "RayPerceptionSensor.cs" can be found in the path ml-agents-release_21\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor
+11. Delete the file named "RayPerceptionSensor.cs" can be found in the path "ml-agents-release_21\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor"
 
 ## 4. Install C5 and Newtonsoft.Json packages via NuGet
 1. In the project, go to **NuGet**.
