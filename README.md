@@ -1,9 +1,5 @@
 # Dungeon Escape
- 76100 Final Project: Dungeon Escape Game in Unity 2023.2.17f1
-
-Using Minimax, Nash, A*, MonteCarlo Search, and ML to control agents in a dungeon environment to kill the dragon and find the exit.
-
-Install Unity using Version 2023.2.17f1
+ 76100 Final Project: Dungeon Escape Game in Unity 2021.3.18f1
 
 ## Overview
 
@@ -74,9 +70,19 @@ Install Unity using Version 2023.2.17f1
 
 - **A Star Search Algorithm:** Pathfinding and shortest path calculation for knights.
 - **Monte Carlo Search Trees:** Simulation-based decision-making for knights.
-- **Minimax Algorithm:** Adversarial strategy for knights and dragon.
+- **Minimax Algorithm:** Adversarial strategy for the dragon and knights.
 - **Nash Equilibrium:** Collaborative strategy for knights.
 - **Reinforcement Learning:** Adaptive learning and behavior modeling for knights.
+
+## Enable Hero 1 as A* to kill the dragon
+1. Go to **AO ALgo -> AStar**
+2. Comment line 14 and uncomment line 13 and line 290
+
+## Enable Hero 1 as MCTS to kill the dragon
+1. Undo the changes in the section above
+
+## Enable LightUp path for Hero 1 A*
+1. Uncomment line 303
 
 # Project Setup Instructions
 
@@ -112,7 +118,7 @@ Install Unity using Version 2023.2.17f1
 ## 5. Handle errors
 1. If any errors occur, comment out the files with those errors.
 
-## 6. Set the slider in Snorelax2 prefab
+## 6. Set the slider in the Snorlax2 prefab
 1. Locate the Snorelax2 prefab in **Prefabs -> Units -> Heroes**.
 2. Set the slider to **5**.
                                 
